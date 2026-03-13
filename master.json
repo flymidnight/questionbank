@@ -1,0 +1,139 @@
+{
+  "vendors": [
+    {
+      "id": "aws",
+      "name": "AWS"
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft"
+    },
+    {
+      "id": "google",
+      "name": "Google"
+    },
+    {
+      "id": "isc2",
+      "name": "ISC2"
+    },
+    {
+      "id": "isaca",
+      "name": "ISACA"
+    },
+    {
+      "id": "pmi",
+      "name": "PMI"
+    },
+    {
+      "id": "tableau",
+      "name": "Tableau"
+    },
+    {
+      "id": "servicenow",
+      "name": "ServiceNow"
+    },
+    {
+      "id": "opengroup",
+      "name": "The Open Group"
+    },
+    {
+      "id": "databricks",
+      "name": "Databricks"
+    },
+    {
+      "id": "cisco",
+      "name": "Cisco"
+    }
+  ],
+
+  "exams": [
+
+    { "code": "CLF-C02", "vendor": "aws", "name": "AWS Certified Cloud Practitioner" },
+    { "code": "SAA-C03", "vendor": "aws", "name": "AWS Certified Solutions Architect – Associate" },
+    { "code": "SAP-C02", "vendor": "aws", "name": "AWS Certified Solutions Architect – Professional" },
+    { "code": "DVA-C02", "vendor": "aws", "name": "AWS Certified Developer – Associate" },
+    { "code": "SOA-C03", "vendor": "aws", "name": "AWS Certified SysOps Administrator – Associate" },
+    { "code": "DOP-C02", "vendor": "aws", "name": "AWS Certified DevOps Engineer – Professional" },
+    { "code": "SCS-C03", "vendor": "aws", "name": "AWS Certified Security – Specialty" },
+    { "code": "MLS-C01", "vendor": "aws", "name": "AWS Certified Machine Learning – Specialty" },
+    { "code": "DBS-C01", "vendor": "aws", "name": "AWS Certified Database – Specialty" },
+    { "code": "ANS-C01", "vendor": "aws", "name": "AWS Certified Advanced Networking – Specialty" },
+    { "code": "DEA-C01", "vendor": "aws", "name": "AWS Certified Data Engineer – Associate" },
+    { "code": "MLA-C01", "vendor": "aws", "name": "AWS Certified Machine Learning Engineer – Associate" },
+    { "code": "AIF-C01", "vendor": "aws", "name": "AWS Certified AI Practitioner" },
+    { "code": "AIP-C01", "vendor": "aws", "name": "AWS Certified AI Practitioner Specialty" },
+
+    { "code": "AZ-900", "vendor": "microsoft", "name": "Azure Fundamentals" },
+    { "code": "AI-900", "vendor": "microsoft", "name": "Azure AI Fundamentals" },
+    { "code": "DP-900", "vendor": "microsoft", "name": "Azure Data Fundamentals" },
+    { "code": "MS-900", "vendor": "microsoft", "name": "Microsoft 365 Fundamentals" },
+    { "code": "PL-900", "vendor": "microsoft", "name": "Power Platform Fundamentals" },
+    { "code": "SC-900", "vendor": "microsoft", "name": "Security, Compliance, and Identity Fundamentals" },
+
+    { "code": "AZ-104", "vendor": "microsoft", "name": "Microsoft Azure Administrator" },
+    { "code": "AZ-204", "vendor": "microsoft", "name": "Developing Solutions for Microsoft Azure" },
+    { "code": "AZ-305", "vendor": "microsoft", "name": "Designing Microsoft Azure Infrastructure Solutions" },
+    { "code": "AZ-400", "vendor": "microsoft", "name": "Designing and Implementing Microsoft DevOps Solutions" },
+    { "code": "AZ-500", "vendor": "microsoft", "name": "Microsoft Azure Security Technologies" },
+    { "code": "AZ-700", "vendor": "microsoft", "name": "Designing and Implementing Microsoft Azure Networking Solutions" },
+    { "code": "AZ-800", "vendor": "microsoft", "name": "Administering Windows Server Hybrid Core Infrastructure" },
+
+    { "code": "DP-100", "vendor": "microsoft", "name": "Designing and Implementing a Data Science Solution on Azure" },
+    { "code": "DP-203", "vendor": "microsoft", "name": "Data Engineering on Microsoft Azure" },
+    { "code": "DP-300", "vendor": "microsoft", "name": "Administering Relational Databases on Microsoft Azure" },
+    { "code": "DP-600", "vendor": "microsoft", "name": "Implementing Analytics Solutions Using Microsoft Fabric" },
+    { "code": "DP-700", "vendor": "microsoft", "name": "Implementing Data Engineering Solutions Using Microsoft Fabric" },
+
+    { "code": "PL-200", "vendor": "microsoft", "name": "Power Platform Functional Consultant" },
+    { "code": "PL-300", "vendor": "microsoft", "name": "Microsoft Power BI Data Analyst" },
+    { "code": "PL-400", "vendor": "microsoft", "name": "Power Platform Developer" },
+    { "code": "PL-600", "vendor": "microsoft", "name": "Power Platform Solution Architect" },
+
+    { "code": "SC-300", "vendor": "microsoft", "name": "Microsoft Identity and Access Administrator" },
+    { "code": "SC-401", "vendor": "microsoft", "name": "Information Security Administrator" },
+    { "code": "SC-100-EH", "vendor": "microsoft", "name": "Microsoft Cybersecurity Architect" },
+
+    { "code": "GH-300-EH", "vendor": "microsoft", "name": "GitHub Copilot Certification" },
+
+    { "code": "GCP-ACE", "vendor": "google", "name": "Google Associate Cloud Engineer" },
+    { "code": "GCP-PCA", "vendor": "google", "name": "Google Professional Cloud Architect" },
+    { "code": "GCP-PCD", "vendor": "google", "name": "Google Professional Cloud Developer" },
+    { "code": "GCP-PDBE", "vendor": "google", "name": "Google Professional Data Engineer" },
+    { "code": "GCP-MLE", "vendor": "google", "name": "Google Professional Machine Learning Engineer" },
+    { "code": "GCP-CDL", "vendor": "google", "name": "Google Cloud Digital Leader" },
+
+    { "code": "CISSP-PP", "vendor": "isc2", "name": "Certified Information Systems Security Professional" },
+    { "code": "CCSP-PP", "vendor": "isc2", "name": "Certified Cloud Security Professional" },
+    { "code": "SSCP", "vendor": "isc2", "name": "Systems Security Certified Practitioner" },
+    { "code": "CSSLP-PP", "vendor": "isc2", "name": "Certified Secure Software Lifecycle Professional" },
+    { "code": "CC-PP", "vendor": "isc2", "name": "Certified in Cybersecurity" },
+
+    { "code": "CISA", "vendor": "isaca", "name": "Certified Information Systems Auditor" },
+    { "code": "CISM-PP", "vendor": "isaca", "name": "Certified Information Security Manager" },
+    { "code": "CRISC", "vendor": "isaca", "name": "Certified in Risk and Information Systems Control" },
+
+    { "code": "PMP", "vendor": "pmi", "name": "Project Management Professional" },
+
+    { "code": "TDA-C01", "vendor": "tableau", "name": "Tableau Certified Data Analyst" },
+    { "code": "TDS-C01", "vendor": "tableau", "name": "Tableau Desktop Specialist" },
+
+    { "code": "CSA", "vendor": "servicenow", "name": "Certified System Administrator" },
+    { "code": "CAD", "vendor": "servicenow", "name": "Certified Application Developer" },
+    { "code": "CIS-ITSM", "vendor": "servicenow", "name": "Certified Implementation Specialist – IT Service Management" },
+    { "code": "CIS-CSM", "vendor": "servicenow", "name": "Certified Implementation Specialist – Customer Service Management" },
+    { "code": "CIS-HR", "vendor": "servicenow", "name": "Certified Implementation Specialist – HR Service Delivery" },
+    { "code": "CIS-DISCOVERY", "vendor": "servicenow", "name": "Certified Implementation Specialist – Discovery" },
+    { "code": "CIS-DF", "vendor": "servicenow", "name": "Certified Implementation Specialist – Discovery Fundamentals" },
+    { "code": "CIS-RC", "vendor": "servicenow", "name": "Certified Implementation Specialist – Risk and Compliance" },
+
+    { "code": "OGEA-103", "vendor": "opengroup", "name": "TOGAF Enterprise Architecture Part 1 Exam" },
+
+    { "code": "DB-DEP", "vendor": "databricks", "name": "Databricks Certified Data Engineer Professional" },
+    { "code": "DB-GAIEA", "vendor": "databricks", "name": "Databricks Certified Generative AI Engineer Associate" },
+    { "code": "DB-MLA", "vendor": "databricks", "name": "Databricks Certified Machine Learning Associate" },
+    { "code": "DB-MLP", "vendor": "databricks", "name": "Databricks Certified Machine Learning Professional" },
+
+    { "code": "200-301", "vendor": "cisco", "name": "Cisco Certified Network Associate (CCNA)" }
+
+  ]
+}
