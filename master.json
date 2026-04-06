@@ -688,7 +688,7 @@
         "recommendedExperience": "5+ years of security experience",
         "officialPage": "https://www.isc2.org/certifications/cissp"
       },
-      "label": "CISSP-PP"
+      "label": "CISSP"
     },
     {
       "code": "CCSP-PP",
@@ -702,7 +702,7 @@
         "recommendedExperience": "5+ years of IT experience, 3+ years in security",
         "officialPage": "https://www.isc2.org/certifications/ccsp"
       },
-      "label": "CCSP-PP"
+      "label": "CCSP"
     },
     {
       "code": "SSCP",
@@ -730,7 +730,7 @@
         "recommendedExperience": "4+ years of SDLC experience",
         "officialPage": "https://www.isc2.org/certifications/csslp"
       },
-      "label": "CSSLP-PP"
+      "label": "CSSLP"
     },
     {
       "code": "CC-PP",
@@ -744,7 +744,7 @@
         "recommendedExperience": "No experience required",
         "officialPage": "https://www.isc2.org/certifications/cc"
       },
-      "label": "CC-PP"
+      "label": "CC"
     },
     {
       "code": "CISA",
@@ -772,7 +772,7 @@
         "recommendedExperience": "5+ years of information security management",
         "officialPage": "https://www.isaca.org/credentialing/cism"
       },
-      "label": "CISM-PP"
+      "label": "CISM"
     },
     {
       "code": "CRISC",
