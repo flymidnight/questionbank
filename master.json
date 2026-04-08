@@ -1025,6 +1025,216 @@
         "officialPage": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html"
       },
       "label": "200-301"
+    },
+    {
+      "code": "AB-100",
+      "vendor": "microsoft",
+      "name": "Microsoft Azure AI Fundamentals",
+      "description": {
+        "summary": "Validates foundational knowledge of AI concepts and Azure AI services.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "No technical background required",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/ab-100/"
+      },
+      "label": "AB-100"
+    },
+    {
+      "code": "AB-730",
+      "vendor": "microsoft",
+      "name": "Microsoft Azure AI Engineer Associate",
+      "description": {
+        "summary": "Demonstrates ability to develop AI solutions using Azure AI services.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of AI development experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/ab-730/"
+      },
+      "label": "AB-730"
+    },
+    {
+      "code": "AB-731",
+      "vendor": "microsoft",
+      "name": "Microsoft Azure AI Engineer Expert",
+      "description": {
+        "summary": "Validates advanced skills in designing and implementing AI solutions on Azure.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "180 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "2+ years of AI engineering experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/ab-731/"
+      },
+      "label": "AB-731"
+    },
+    {
+      "code": "AB-900",
+      "vendor": "microsoft",
+      "name": "Microsoft Azure AI Fundamentals",
+      "description": {
+        "summary": "Demonstrates foundational knowledge of AI concepts and Azure AI services.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "No technical background required",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/ab-900/"
+      },
+      "label": "AB-900"
+    },
+    {
+      "code": "AZ-801",
+      "vendor": "microsoft",
+      "name": "Configuring Windows Server Hybrid Advanced Services",
+      "description": {
+        "summary": "Validates skills in configuring Windows Server in hybrid environments.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "180 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "2+ years of Windows Server administration",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/az-801/"
+      },
+      "label": "AZ-801"
+    },
+    {
+      "code": "GH-900",
+      "vendor": "microsoft",
+      "name": "GitHub Foundations",
+      "description": {
+        "summary": "Validates foundational knowledge of GitHub and DevOps practices.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "No experience required",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/gh-900/"
+      },
+      "label": "GH-900"
+    },
+    {
+      "code": "MB-230",
+      "vendor": "microsoft",
+      "name": "Microsoft Dynamics 365 Customer Service Functional Consultant",
+      "description": {
+        "summary": "Measures ability to manage cases and Knowledge Management; manage entitlements and SLAs; implement scheduling; implement multi-session experiences for Customer Service; manage analytics, visualizations, and insights; implement Microsoft Power Platform; implement Connected Customer Service; and implement routing.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Customer service expertise and strong applied knowledge of customer service",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/mb-230/"
+      },
+      "label": "MB-230"
+    },
+    {
+      "code": "MB-280",
+      "vendor": "microsoft",
+      "name": "Microsoft Dynamics 365 Customer Service Functional Consultant Expert",
+      "description": {
+        "summary": "Demonstrates advanced skills in customer service implementation.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "2+ years of customer service experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/mb-280/"
+      },
+      "label": "MB-280"
+    },
+    {
+      "code": "MB-310",
+      "vendor": "microsoft",
+      "name": "Microsoft Dynamics 365 Finance Functional Consultant Associate",
+      "description": {
+        "summary": "Analyze and translate financial business requirements into processes and solutions that implement industry recommended practices.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "100 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Fundamental understanding of accounting principles and financial operations",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/mb-310/"
+      },
+      "label": "MB-310"
+    },
+    {
+      "code": "MB-330",
+      "vendor": "microsoft",
+      "name": "Microsoft Certified: Dynamics 365 Supply Chain Management Functional Consultant Associate",
+      "description": {
+        "summary": "Design and configure Dynamics 365 Supply chain Management and related tools.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "100 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Understanding of supply chain management operations and implementing Dynamics 365 Supply Chain Management features",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/mb-330/"
+      },
+      "label": "MB-330"
+    },
+    {
+      "code": "MB-800",
+      "vendor": "microsoft",
+      "name": "Microsoft Certified: Dynamics 365 Business Central Functional Consultant Associate",
+      "description": {
+        "summary": "As a functional consultant, you implement core application setup processes for small and medium businesses. You configure the application in collaboration with the implementation team to provide the business with manageability and ease of use.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "100 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Applied knowledge of meeting business needs by specializing in one or more feature sets of Business Central",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/mb-800/"
+      },
+      "label": "MB-800"
+    },
+    {
+      "code": "MB-820",
+      "vendor": "microsoft",
+      "name": "Microsoft Dynamics 365 Business Central Developer",
+      "description": {
+        "summary": "Demonstrates ability to build applications on Business Central.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of Business Central development",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/mb-820/"
+      },
+      "label": "MB-820"
+    },
+    {
+      "code": "MD-102",
+      "vendor": "microsoft",
+      "name": "Microsoft 365 Certified: Endpoint Administrator Associate",
+      "description": {
+        "summary": "Plan and execute an endpoint deployment strategy, using essential elements of modern management, co-management approaches, and Microsoft Intune integration.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "100 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Experience with Microsoft Entra ID and Microsoft 365 technologies, including Intune, as well as strong skills and experience in deploying, configuring, and maintaining Windows client and non-Windows devices",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/md-102/"
+      },
+      "label": "MD-102"
+    },
+    {
+      "code": "MS-102",
+      "vendor": "microsoft",
+      "name": "Microsoft 365 Administrator",
+      "description": {
+        "summary": "Validates skills in administering Microsoft 365 tenant-level services.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "180 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "2+ years of Microsoft 365 administration",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/ms-102/"
+      },
+      "label": "MS-102"
+    },
+    {
+      "code": "SC-200",
+      "vendor": "microsoft",
+      "name": "Microsoft Security Operations Analyst",
+      "description": {
+        "summary": "Demonstrates ability to investigate and mitigate threats using Microsoft security tools.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of security operations experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/sc-200/"
+      },
+      "label": "SC-200"
     }
   ]
 }
