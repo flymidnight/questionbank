@@ -73,7 +73,8 @@ def main() -> None:
         )
         sys.exit(1)
 
-    json_path = args.json_path.resolve()
+    json_path = (Path("./JSON") / args.json_path).resolve()
+
     if not json_path.exists():
         print(f"Input file not found: {json_path}", file=sys.stderr)
         sys.exit(1)
