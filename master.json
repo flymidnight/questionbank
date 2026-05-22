@@ -1249,6 +1249,20 @@
         "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/sc-200/"
       },
       "label": "SC-200"
+    },
+    {
+      "code": "CIS-SM",
+      "vendor": "servicenow",
+      "name": "ServiceNow Certified Implementation Specialist – Service Mapping",
+      "label": "CIS-SM",
+      "description": {
+        "questions": "60",
+        "format": "Multiple choice (single and multiple response)",
+        "officialPage": "https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=d88e1d77dbc27f40de3cdb85ca961926",
+        "passingScore": "Not published (pass/fail reported immediately)",
+        "recommendedExperience": "6 months field experience and participation in 2+ ITOM deployments (Service Mapping)",
+        "summary": "Validates ability to configure, implement, and maintain the ServiceNow Service Mapping application."
+      }
     }
   ]
 }
