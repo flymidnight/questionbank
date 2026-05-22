@@ -1256,7 +1256,6 @@
       "name": "ServiceNow Certified Implementation Specialist – Service Mapping",
       "label": "CIS-SM",
       "description": {
-        "questions": "60",
         "format": "Multiple choice (single and multiple response)",
         "officialPage": "https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=d88e1d77dbc27f40de3cdb85ca961926",
         "passingScore": "Not published (pass/fail reported immediately)",
@@ -1270,7 +1269,6 @@
       "name": "Microsoft Certified: Azure AI Apps and Agents Developer Associate",
       "label": "AI-103",
       "description": {
-        "questions": "~50",
         "duration": "100 minutes",
         "format": "Multiple choice and scenario-based questions (single and multiple response)",
         "officialPage": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103",
