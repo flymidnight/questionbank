@@ -1263,6 +1263,21 @@
         "recommendedExperience": "6 months field experience and participation in 2+ ITOM deployments (Service Mapping)",
         "summary": "Validates ability to configure, implement, and maintain the ServiceNow Service Mapping application."
       }
+    },
+    {
+      "code": "AI-103",
+      "vendor": "microsoft",
+      "name": "Microsoft Certified: Azure AI Apps and Agents Developer Associate",
+      "label": "AI-103",
+      "description": {
+        "questions": "~50",
+        "duration": "100 minutes",
+        "format": "Multiple choice and scenario-based questions (single and multiple response)",
+        "officialPage": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Experience developing AI apps with Python and familiarity with Microsoft Foundry and Azure AI services",
+        "summary": "Validates ability to plan, build, deploy, and operate generative AI apps and agentic solutions using Azure Foundry and related AI services."
+      }
     }
   ]
 }
