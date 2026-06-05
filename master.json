@@ -663,7 +663,7 @@
       "label": "GCP-CDL"
     },
     {
-      "code": "GCP-GAIL",
+      "code": "GCP-GAIL-EH",
       "vendor": "google",
       "name": "Google Cloud Generative AI Fundamentals",
       "description": {
