@@ -789,6 +789,20 @@
       "label": "CRISC"
     },
     {
+      "code": "CPMAI",
+      "vendor": "pmi",
+      "name": "Certified Professional in Managing AI",
+      "description": {
+        "summary": "Demonstrates ability to manage AI projects using a vendor-agnostic, data-driven, iterative methodology.",
+        "format": "Multiple choice questions",
+        "duration": "160 minutes",
+        "passingScore": "Varies (PMI does not publish)",
+        "recommendedExperience": "No experience required",
+        "officialPage": "https://www.pmi.org/certifications/ai-project-management-cpmai"
+      },
+      "label": "CPMAI"
+    },
+    {
       "code": "PMP",
       "vendor": "pmi",
       "name": "Project Management Professional",
