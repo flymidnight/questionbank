@@ -793,6 +793,20 @@
       "label": "CRISC"
     },
     {
+      "code": "ITILFND-V4",
+      "vendor": "itil",
+      "name": "ITIL Foundation (Version 4)",
+      "description": {
+        "summary": "Validates foundational knowledge of ITIL best practices for IT service management.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "65%",
+        "recommendedExperience": "No prior experience required",
+        "officialPage": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-foundation-2565"
+      },
+      "label": "ITILFND-V4"
+    },
+    {
       "code": "ITILFND-V5",
       "vendor": "itil",
       "name": "ITIL Foundation (Version 5)",
