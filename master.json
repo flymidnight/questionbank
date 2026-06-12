@@ -21,6 +21,10 @@
       "name": "ISACA"
     },
     {
+      "id": "itil",
+      "name": "ITIL"
+    },
+    {
       "id": "pmi",
       "name": "PMI"
     },
@@ -787,6 +791,20 @@
         "officialPage": "https://www.isaca.org/credentialing/crisc"
       },
       "label": "CRISC"
+    },
+    {
+      "code": "ITILFND-V5",
+      "vendor": "itil",
+      "name": "ITIL Foundation (Version 5)",
+      "description": {
+        "summary": "Validates foundational knowledge of ITIL best practices for digital product and service management.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "65%",
+        "recommendedExperience": "No experience required",
+        "officialPage": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-5-foundation-version-50-4154"
+      },
+      "label": "ITILFND-V5"
     },
     {
       "code": "CPMAI",
