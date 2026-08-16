@@ -1,0 +1,1475 @@
+{
+  "vendors": [
+    {
+      "id": "aws",
+      "name": "AWS"
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft"
+    },
+    {
+      "id": "google",
+      "name": "Google"
+    },
+    {
+      "id": "isc2",
+      "name": "ISC2"
+    },
+    {
+      "id": "isaca",
+      "name": "ISACA"
+    },
+    {
+      "id": "itil",
+      "name": "ITIL"
+    },
+    {
+      "id": "pmi",
+      "name": "PMI"
+    },
+    {
+      "id": "tableau",
+      "name": "Tableau"
+    },
+    {
+      "id": "servicenow",
+      "name": "ServiceNow"
+    },
+    {
+      "id": "opengroup",
+      "name": "The Open Group"
+    },
+    {
+      "id": "databricks",
+      "name": "Databricks"
+    },
+    {
+      "id": "cisco",
+      "name": "Cisco"
+    },
+    {
+      "id": "cfa-institute",
+      "name": "CFA Institute"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic"
+    }
+  ],
+  "exams": [
+    {
+      "code": "CLF-C02",
+      "vendor": "aws",
+      "name": "AWS Certified Cloud Practitioner",
+      "description": {
+        "summary": "Validates foundational knowledge of AWS Cloud concepts, services, and terminology.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "90 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "6 months of AWS Cloud experience",
+        "officialPage": "https://aws.amazon.com/certification/certified-cloud-practitioner/"
+      },
+      "label": "CLF-C02"
+    },
+    {
+      "code": "SAA-C03",
+      "vendor": "aws",
+      "name": "AWS Certified Solutions Architect \u2013 Associate",
+      "description": {
+        "summary": "Demonstrates ability to design distributed systems on AWS that are scalable, resilient, and cost-efficient.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "130 minutes",
+        "passingScore": "720/1000",
+        "recommendedExperience": "1 year of AWS architecture experience",
+        "officialPage": "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
+      },
+      "label": "SAA-C03"
+    },
+    {
+      "code": "SAP-C02",
+      "vendor": "aws",
+      "name": "AWS Certified Solutions Architect \u2013 Professional",
+      "description": {
+        "summary": "Validates advanced technical skills and experience in designing distributed applications and systems on AWS.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "180 minutes",
+        "passingScore": "750/1000",
+        "recommendedExperience": "2+ years of AWS architecture experience",
+        "officialPage": "https://aws.amazon.com/certification/certified-solutions-architect-professional/"
+      },
+      "label": "SAP-C02"
+    },
+    {
+      "code": "DVA-C02",
+      "vendor": "aws",
+      "name": "AWS Certified Developer \u2013 Associate",
+      "description": {
+        "summary": "Validates proficiency in developing, deploying, and debugging cloud-based applications using AWS.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "130 minutes",
+        "passingScore": "720/1000",
+        "recommendedExperience": "1+ years of AWS development experience",
+        "officialPage": "https://aws.amazon.com/certification/certified-developer-associate/"
+      },
+      "label": "DVA-C02"
+    },
+    {
+      "code": "SOA-C03",
+      "vendor": "aws",
+      "name": "AWS Certified SysOps Administrator \u2013 Associate",
+      "description": {
+        "summary": "Demonstrates expertise in deploying, managing, and operating workloads on AWS.",
+        "format": "Multiple choice, multiple response, and exam labs",
+        "duration": "180 minutes",
+        "passingScore": "720/1000",
+        "recommendedExperience": "1+ years of AWS operations experience",
+        "officialPage": "https://aws.amazon.com/certification/certified-sysops-administrator-associate/"
+      },
+      "label": "SOA-C03"
+    },
+    {
+      "code": "DOP-C02",
+      "vendor": "aws",
+      "name": "AWS Certified DevOps Engineer \u2013 Professional",
+      "description": {
+        "summary": "Validates expertise in provisioning, operating, and managing AWS environments for DevOps.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "180 minutes",
+        "passingScore": "750/1000",
+        "recommendedExperience": "2+ years of DevOps experience on AWS",
+        "officialPage": "https://aws.amazon.com/certification/certified-devops-engineer-professional/"
+      },
+      "label": "DOP-C02"
+    },
+    {
+      "code": "SCS-C03",
+      "vendor": "aws",
+      "name": "AWS Certified Security \u2013 Specialty",
+      "description": {
+        "summary": "Validates advanced skills in securing AWS workloads and understanding security controls.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "170 minutes",
+        "passingScore": "750/1000",
+        "recommendedExperience": "2+ years of AWS security experience",
+        "officialPage": "https://aws.amazon.com/certification/certified-security-specialty/"
+      },
+      "label": "SCS-C03"
+    },
+    {
+      "code": "MLS-C01",
+      "vendor": "aws",
+      "name": "AWS Certified Machine Learning \u2013 Specialty",
+      "description": {
+        "summary": "Demonstrates expertise in designing, implementing, and deploying machine learning solutions on AWS.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "180 minutes",
+        "passingScore": "750/1000",
+        "recommendedExperience": "1+ years of ML experience on AWS",
+        "officialPage": "https://aws.amazon.com/certification/certified-machine-learning-specialty/"
+      },
+      "label": "MLS-C01"
+    },
+    {
+      "code": "DBS-C01",
+      "vendor": "aws",
+      "name": "AWS Certified Database \u2013 Specialty",
+      "description": {
+        "summary": "Validates expertise in designing, managing, and troubleshooting AWS database solutions.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "180 minutes",
+        "passingScore": "750/1000",
+        "recommendedExperience": "2+ years of database experience on AWS",
+        "officialPage": "https://aws.amazon.com/certification/certified-database-specialty/"
+      },
+      "label": "DBS-C01"
+    },
+    {
+      "code": "ANS-C01",
+      "vendor": "aws",
+      "name": "AWS Certified Advanced Networking \u2013 Specialty",
+      "description": {
+        "summary": "Demonstrates advanced skills in designing and implementing AWS and hybrid IT network architectures.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "170 minutes",
+        "passingScore": "750/1000",
+        "recommendedExperience": "2+ years of networking experience on AWS",
+        "officialPage": "https://aws.amazon.com/certification/certified-advanced-networking-specialty/"
+      },
+      "label": "ANS-C01"
+    },
+    {
+      "code": "DEA-C01",
+      "vendor": "aws",
+      "name": "AWS Certified Data Engineer \u2013 Associate",
+      "description": {
+        "summary": "Validates foundational skills in data engineering, including data ingestion, transformation, and storage on AWS.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "170 minutes",
+        "passingScore": "720/1000",
+        "recommendedExperience": "1+ years of data engineering experience on AWS",
+        "officialPage": "https://aws.amazon.com/certification/certified-data-engineer-associate/"
+      },
+      "label": "DEA-C01"
+    },
+    {
+      "code": "MLA-C01",
+      "vendor": "aws",
+      "name": "AWS Certified Machine Learning Engineer \u2013 Associate",
+      "description": {
+        "summary": "Validates foundational skills in machine learning engineering and deployment on AWS.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "170 minutes",
+        "passingScore": "720/1000",
+        "recommendedExperience": "1+ years of ML engineering experience on AWS",
+        "officialPage": "https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/"
+      },
+      "label": "MLA-C01"
+    },
+    {
+      "code": "AIF-C01",
+      "vendor": "aws",
+      "name": "AWS Certified AI Practitioner",
+      "description": {
+        "summary": "Demonstrates foundational knowledge of AI concepts and AWS AI services.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "90 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "6 months of AI experience on AWS",
+        "officialPage": "https://aws.amazon.com/certification/certified-ai-practitioner/"
+      },
+      "label": "AIF-C01"
+    },
+    {
+      "code": "AIP-C01",
+      "vendor": "aws",
+      "name": "AWS Certified AI Practitioner Specialty",
+      "description": {
+        "summary": "Validates advanced skills in AI and machine learning using AWS services.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "170 minutes",
+        "passingScore": "750/1000",
+        "recommendedExperience": "2+ years of AI/ML experience on AWS",
+        "officialPage": "https://aws.amazon.com/certification/certified-ai-practitioner-specialty/"
+      },
+      "label": "AIP-C01"
+    },
+    {
+      "code": "AZ-900",
+      "vendor": "microsoft",
+      "name": "Azure Fundamentals",
+      "description": {
+        "summary": "Validates foundational knowledge of cloud concepts and Azure services.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "No technical background required",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/az-900/"
+      },
+      "label": "AZ-900"
+    },
+    {
+      "code": "AI-901",
+      "vendor": "microsoft",
+      "name": "Azure AI Fundamentals",
+      "description": {
+        "summary": "Validates foundational knowledge of AI concepts and capabilities, and the ability to implement AI solutions using Azure and Microsoft Foundry.",
+        "format": "Multiple choice questions",
+        "duration": "45 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Conceptual knowledge of AI solutions in Azure; basic Python and Azure familiarity helpful",
+        "officialPage": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-901/"
+      },
+      "label": "AI-901"
+    },
+    {
+      "code": "DP-900",
+      "vendor": "microsoft",
+      "name": "Azure Data Fundamentals",
+      "description": {
+        "summary": "Validates foundational knowledge of core data concepts and Azure data services.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "No technical background required",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/dp-900/"
+      },
+      "label": "DP-900"
+    },
+    {
+      "code": "PL-900",
+      "vendor": "microsoft",
+      "name": "Power Platform Fundamentals",
+      "description": {
+        "summary": "Validates foundational knowledge of Power Platform components and their capabilities.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "No technical background required",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/pl-900/"
+      },
+      "label": "PL-900"
+    },
+    {
+      "code": "SC-900",
+      "vendor": "microsoft",
+      "name": "Security, Compliance, and Identity Fundamentals",
+      "description": {
+        "summary": "Demonstrates foundational knowledge of security, compliance, and identity concepts in Microsoft cloud.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "No technical background required",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/sc-900/"
+      },
+      "label": "SC-900"
+    },
+    {
+      "code": "AZ-104",
+      "vendor": "microsoft",
+      "name": "Microsoft Azure Administrator",
+      "description": {
+        "summary": "Validates skills in managing Azure resources, identities, governance, and networking.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "6 months of Azure administration experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/az-104/"
+      },
+      "label": "AZ-104"
+    },
+    {
+      "code": "AZ-120",
+      "vendor": "microsoft",
+      "name": "Planning and Administering Azure for SAP Workloads",
+      "description": {
+        "summary": "Demonstrates planning, migration, and operation of SAP solutions on Microsoft Azure.",
+        "format": "Multiple choice questions",
+        "duration": "100 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Azure Administrator Associate certification and extensive SAP experience recommended",
+        "officialPage": "https://learn.microsoft.com/en-us/credentials/certifications/azure-for-sap-workloads-specialty/"
+      },
+      "label": "AZ-120"
+    },
+    {
+      "code": "AZ-204",
+      "vendor": "microsoft",
+      "name": "Developing Solutions for Microsoft Azure",
+      "description": {
+        "summary": "Demonstrates ability to develop cloud solutions using Azure services and tools.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of Azure development experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/az-204/"
+      },
+      "label": "AZ-204"
+    },
+    {
+      "code": "AI-200",
+      "vendor": "microsoft",
+      "name": "Developing AI Cloud Solutions on Azure",
+      "description": {
+        "summary": "Validates ability to design, build, and implement AI solutions on Azure, with a focus on back-end services, scalable architectures, and the full development lifecycle.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of Azure development experience",
+        "officialPage": "https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-200/"
+      },
+      "label": "AI-200"
+    },
+    {
+      "code": "AZ-305",
+      "vendor": "microsoft",
+      "name": "Designing Microsoft Azure Infrastructure Solutions",
+      "description": {
+        "summary": "Validates skills in designing Azure infrastructure, including compute, networking, and security.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of Azure architecture experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/az-305/"
+      },
+      "label": "AZ-305"
+    },
+    {
+      "code": "AZ-400",
+      "vendor": "microsoft",
+      "name": "Designing and Implementing Microsoft DevOps Solutions",
+      "description": {
+        "summary": "Demonstrates expertise in DevOps practices and implementing CI/CD pipelines on Azure.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of DevOps experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/az-400/"
+      },
+      "label": "AZ-400"
+    },
+    {
+      "code": "AZ-500",
+      "vendor": "microsoft",
+      "name": "Microsoft Azure Security Technologies",
+      "description": {
+        "summary": "Validates skills in implementing security controls and threat protection on Azure.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of Azure security experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/az-500/"
+      },
+      "label": "AZ-500"
+    },
+    {
+      "code": "AZ-700",
+      "vendor": "microsoft",
+      "name": "Designing and Implementing Microsoft Azure Networking Solutions",
+      "description": {
+        "summary": "Demonstrates expertise in designing and implementing Azure networking solutions.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of Azure networking experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/az-700/"
+      },
+      "label": "AZ-700"
+    },
+    {
+      "code": "AZ-800",
+      "vendor": "microsoft",
+      "name": "Administering Windows Server Hybrid Core Infrastructure",
+      "description": {
+        "summary": "Validates skills in administering Windows Server hybrid environments.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of Windows Server administration",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/az-800/"
+      },
+      "label": "AZ-800"
+    },
+    {
+      "code": "DP-100",
+      "vendor": "microsoft",
+      "name": "Designing and Implementing a Data Science Solution on Azure",
+      "description": {
+        "summary": "Demonstrates ability to design and implement data science solutions using Azure tools.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of data science experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/dp-100/"
+      },
+      "label": "DP-100"
+    },
+    {
+      "code": "DP-300",
+      "vendor": "microsoft",
+      "name": "Administering Relational Databases on Microsoft Azure",
+      "description": {
+        "summary": "Demonstrates ability to administer Azure SQL and other relational databases.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of database administration",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/dp-300/"
+      },
+      "label": "DP-300"
+    },
+    {
+      "code": "DP-420",
+      "vendor": "microsoft",
+      "name": "Designing and Implementing Cloud-Native Applications Using Microsoft Azure Cosmos DB",
+      "description": {
+        "summary": "Validates ability to design and implement cloud-native applications using Azure Cosmos DB, including data models, distribution, integration, optimization, and maintenance.",
+        "format": "Multiple choice questions",
+        "duration": "100 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Experience developing apps for Azure and working with Azure Cosmos DB NoSQL API and SDKs",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/dp-420/"
+      },
+      "label": "DP-420"
+    },
+    {
+      "code": "DP-600",
+      "vendor": "microsoft",
+      "name": "Implementing Analytics Solutions Using Microsoft Fabric",
+      "description": {
+        "summary": "Validates skills in implementing analytics solutions using Microsoft Fabric.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of analytics experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/dp-600/"
+      },
+      "label": "DP-600"
+    },
+    {
+      "code": "DP-700",
+      "vendor": "microsoft",
+      "name": "Implementing Data Engineering Solutions Using Microsoft Fabric",
+      "description": {
+        "summary": "Demonstrates ability to implement data engineering solutions using Microsoft Fabric.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of data engineering experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/dp-700/"
+      },
+      "label": "DP-700"
+    },
+    {
+      "code": "PL-200",
+      "vendor": "microsoft",
+      "name": "Power Platform Functional Consultant",
+      "description": {
+        "summary": "Validates skills in configuring Power Platform and implementing solutions.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of Power Platform experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/pl-200/"
+      },
+      "label": "PL-200"
+    },
+    {
+      "code": "PL-300",
+      "vendor": "microsoft",
+      "name": "Microsoft Power BI Data Analyst",
+      "description": {
+        "summary": "Demonstrates ability to analyze data and build reports using Power BI.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of Power BI experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/pl-300/"
+      },
+      "label": "PL-300"
+    },
+    {
+      "code": "PL-400",
+      "vendor": "microsoft",
+      "name": "Power Platform Developer",
+      "description": {
+        "summary": "Validates skills in developing solutions using Power Platform tools.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of Power Platform development",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/pl-400/"
+      },
+      "label": "PL-400"
+    },
+    {
+      "code": "SC-300",
+      "vendor": "microsoft",
+      "name": "Microsoft Identity and Access Administrator",
+      "description": {
+        "summary": "Validates skills in managing identity and access in Microsoft environments.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of identity management experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/sc-300/"
+      },
+      "label": "SC-300"
+    },
+    {
+      "code": "SC-401",
+      "vendor": "microsoft",
+      "name": "Information Security Administrator",
+      "description": {
+        "summary": "Demonstrates ability to implement information security controls in Microsoft environments.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of security administration",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/sc-401/"
+      },
+      "label": "SC-401"
+    },
+    {
+      "code": "SC-100-EH",
+      "vendor": "microsoft",
+      "name": "Microsoft Cybersecurity Architect",
+      "description": {
+        "summary": "Validates skills in designing cybersecurity strategies and architectures for Microsoft solutions.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "2+ years of cybersecurity architecture experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/sc-100/"
+      },
+      "label": "SC-100"
+    },
+    {
+      "code": "GH-300-EH",
+      "vendor": "microsoft",
+      "name": "GitHub Copilot Certification",
+      "description": {
+        "summary": "Demonstrates proficiency in using GitHub Copilot for software development.",
+        "format": "Multiple choice and practical tasks",
+        "duration": "90 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "6 months of GitHub Copilot usage",
+        "officialPage": "https://github.com/copilot/certification"
+      },
+      "label": "GH-300"
+    },
+    {
+      "code": "GCP-ACE",
+      "vendor": "google",
+      "name": "Google Associate Cloud Engineer",
+      "description": {
+        "summary": "Validates ability to deploy applications, monitor operations, and manage Google Cloud solutions.",
+        "format": "Multiple choice and multiple select questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "6 months of Google Cloud experience",
+        "officialPage": "https://cloud.google.com/certification/cloud-engineer"
+      },
+      "label": "GCP-ACE"
+    },
+    {
+      "code": "GCP-PCA",
+      "vendor": "google",
+      "name": "Google Professional Cloud Architect",
+      "description": {
+        "summary": "Demonstrates ability to design, develop, and manage robust, secure, scalable Google Cloud solutions.",
+        "format": "Multiple choice and case study questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "3+ years of cloud architecture experience",
+        "officialPage": "https://cloud.google.com/certification/cloud-architect"
+      },
+      "label": "GCP-PCA"
+    },
+    {
+      "code": "GCP-PCD",
+      "vendor": "google",
+      "name": "Google Professional Cloud Developer",
+      "description": {
+        "summary": "Validates skills in designing, developing, and deploying applications on Google Cloud.",
+        "format": "Multiple choice and case study questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of Google Cloud development",
+        "officialPage": "https://cloud.google.com/certification/cloud-developer"
+      },
+      "label": "GCP-PCD"
+    },
+    {
+      "code": "GCP-PDBE",
+      "vendor": "google",
+      "name": "Google Professional Data Engineer",
+      "description": {
+        "summary": "Demonstrates ability to design, build, and operationalize data processing systems on Google Cloud.",
+        "format": "Multiple choice and case study questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of data engineering experience",
+        "officialPage": "https://cloud.google.com/certification/data-engineer"
+      },
+      "label": "GCP-PDBE"
+    },
+    {
+      "code": "GCP-PDE",
+      "vendor": "google",
+      "name": "Google Professional Data Engineer",
+      "description": {
+        "summary": "Demonstrates ability to design, build, and operationalize data processing systems on Google Cloud.",
+        "format": "Multiple choice and case study questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of data engineering experience",
+        "officialPage": "https://cloud.google.com/certification/data-engineer"
+      },
+      "label": "GCP-PDE"
+    },
+    {
+      "code": "GCP-MLE",
+      "vendor": "google",
+      "name": "Google Professional Machine Learning Engineer",
+      "description": {
+        "summary": "Validates skills in designing, building, and productionizing ML models on Google Cloud.",
+        "format": "Multiple choice and case study questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of ML engineering experience",
+        "officialPage": "https://cloud.google.com/certification/machine-learning-engineer"
+      },
+      "label": "GCP-MLE"
+    },
+    {
+      "code": "GCP-CNE",
+      "vendor": "google",
+      "name": "Google Professional Cloud Network Engineer",
+      "description": {
+        "summary": "Demonstrates ability to design, implement, and manage Google Cloud network infrastructure including VPC, hybrid connectivity, and network security.",
+        "format": "Multiple choice and multiple select questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "3+ years of industry experience, including 1+ years designing and managing solutions on Google Cloud",
+        "officialPage": "https://cloud.google.com/certification/cloud-network-engineer"
+      },
+      "label": "GCP-CNE"
+    },
+    {
+      "code": "GCP-CDL",
+      "vendor": "google",
+      "name": "Google Cloud Digital Leader",
+      "description": {
+        "summary": "Demonstrates foundational knowledge of Google Cloud products and digital transformation.",
+        "format": "Multiple choice questions",
+        "duration": "90 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "No technical background required",
+        "officialPage": "https://cloud.google.com/certification/digital-leader"
+      },
+      "label": "GCP-CDL"
+    },
+    {
+      "code": "GCP-GAIL-EH",
+      "vendor": "google",
+      "name": "Google Cloud Generative AI Fundamentals",
+      "description": {
+        "summary": "Demonstrates foundational knowledge of generative AI concepts and Google Cloud AI services.",
+        "format": "Multiple choice questions",
+        "duration": "90 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "No technical background required",
+        "officialPage": "https://cloud.google.com/certification/generative-ai-fundamentals"
+      },
+      "label": "GCP-GAIL"
+    },
+    {
+      "code": "CISSP-PP",
+      "vendor": "isc2",
+      "name": "Certified Information Systems Security Professional",
+      "description": {
+        "summary": "Validates expertise in designing, implementing, and managing cybersecurity programs.",
+        "format": "Multiple choice and advanced questions",
+        "duration": "180 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "5+ years of security experience",
+        "officialPage": "https://www.isc2.org/certifications/cissp"
+      },
+      "label": "CISSP"
+    },
+    {
+      "code": "CCSP-PP",
+      "vendor": "isc2",
+      "name": "Certified Cloud Security Professional",
+      "description": {
+        "summary": "Demonstrates advanced skills in cloud security architecture, governance, and compliance.",
+        "format": "Multiple choice questions",
+        "duration": "240 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "5+ years of IT experience, 3+ years in security",
+        "officialPage": "https://www.isc2.org/certifications/ccsp"
+      },
+      "label": "CCSP"
+    },
+    {
+      "code": "SSCP",
+      "vendor": "isc2",
+      "name": "Systems Security Certified Practitioner",
+      "description": {
+        "summary": "Validates technical skills in implementing, monitoring, and administering IT infrastructure.",
+        "format": "Multiple choice questions",
+        "duration": "180 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of security experience",
+        "officialPage": "https://www.isc2.org/certifications/sscp"
+      },
+      "label": "SSCP"
+    },
+    {
+      "code": "CSSLP-PP",
+      "vendor": "isc2",
+      "name": "Certified Secure Software Lifecycle Professional",
+      "description": {
+        "summary": "Demonstrates expertise in securing software development lifecycle processes.",
+        "format": "Multiple choice questions",
+        "duration": "240 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "4+ years of SDLC experience",
+        "officialPage": "https://www.isc2.org/certifications/csslp"
+      },
+      "label": "CSSLP"
+    },
+    {
+      "code": "CC-PP",
+      "vendor": "isc2",
+      "name": "Certified in Cybersecurity",
+      "description": {
+        "summary": "Validates foundational knowledge of cybersecurity concepts and practices.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "No experience required",
+        "officialPage": "https://www.isc2.org/certifications/cc"
+      },
+      "label": "CC"
+    },
+    {
+      "code": "CISA",
+      "vendor": "isaca",
+      "name": "Certified Information Systems Auditor",
+      "description": {
+        "summary": "Validates expertise in auditing, controlling, and assuring information systems.",
+        "format": "Multiple choice questions",
+        "duration": "240 minutes",
+        "passingScore": "450/800",
+        "recommendedExperience": "5+ years of IS audit experience",
+        "officialPage": "https://www.isaca.org/credentialing/cisa"
+      },
+      "label": "CISA"
+    },
+    {
+      "code": "CISM-PP",
+      "vendor": "isaca",
+      "name": "Certified Information Security Manager",
+      "description": {
+        "summary": "Demonstrates ability to manage and design enterprise information security programs.",
+        "format": "Multiple choice questions",
+        "duration": "240 minutes",
+        "passingScore": "450/800",
+        "recommendedExperience": "5+ years of information security management",
+        "officialPage": "https://www.isaca.org/credentialing/cism"
+      },
+      "label": "CISM"
+    },
+    {
+      "code": "CRISC",
+      "vendor": "isaca",
+      "name": "Certified in Risk and Information Systems Control",
+      "description": {
+        "summary": "Validates skills in identifying and managing enterprise IT risk.",
+        "format": "Multiple choice questions",
+        "duration": "240 minutes",
+        "passingScore": "450/800",
+        "recommendedExperience": "3+ years of risk management experience",
+        "officialPage": "https://www.isaca.org/credentialing/crisc"
+      },
+      "label": "CRISC"
+    },
+    {
+      "code": "ITILFND-V4",
+      "vendor": "itil",
+      "name": "ITIL Foundation (Version 4)",
+      "description": {
+        "summary": "Validates foundational knowledge of ITIL best practices for IT service management.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "65%",
+        "recommendedExperience": "No prior experience required",
+        "officialPage": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-foundation-2565"
+      },
+      "label": "ITILFND-V4"
+    },
+    {
+      "code": "ITILFND-V5",
+      "vendor": "itil",
+      "name": "ITIL Foundation (Version 5)",
+      "description": {
+        "summary": "Validates foundational knowledge of ITIL best practices for digital product and service management.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "65%",
+        "recommendedExperience": "No experience required",
+        "officialPage": "https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-5-foundation-version-50-4154"
+      },
+      "label": "ITILFND-V5"
+    },
+    {
+      "code": "CPMAI",
+      "vendor": "pmi",
+      "name": "Certified Professional in Managing AI",
+      "description": {
+        "summary": "Demonstrates ability to manage AI projects using a vendor-agnostic, data-driven, iterative methodology.",
+        "format": "Multiple choice questions",
+        "duration": "160 minutes",
+        "passingScore": "Varies (PMI does not publish)",
+        "recommendedExperience": "No experience required",
+        "officialPage": "https://www.pmi.org/certifications/ai-project-management-cpmai"
+      },
+      "label": "CPMAI"
+    },
+    {
+      "code": "PMP",
+      "vendor": "pmi",
+      "name": "Project Management Professional",
+      "description": {
+        "summary": "Demonstrates ability to lead and manage projects across industries.",
+        "format": "Multiple choice, multiple response, and matching questions",
+        "duration": "230 minutes",
+        "passingScore": "Varies (PMI does not publish)",
+        "recommendedExperience": "3+ years of project management experience",
+        "officialPage": "https://www.pmi.org/certifications/project-management-pmp"
+      },
+      "label": "PMP"
+    },
+    {
+      "code": "TDA-C01",
+      "vendor": "tableau",
+      "name": "Tableau Certified Data Analyst",
+      "description": {
+        "summary": "Validates skills in data analysis and visualization using Tableau.",
+        "format": "Multiple choice and hands-on questions",
+        "duration": "120 minutes",
+        "passingScore": "750/1000",
+        "recommendedExperience": "6+ months of Tableau experience",
+        "officialPage": "https://www.tableau.com/learn/certification/data-analyst"
+      },
+      "label": "TDA-C01"
+    },
+    {
+      "code": "TDS-C01",
+      "vendor": "tableau",
+      "name": "Tableau Desktop Specialist",
+      "description": {
+        "summary": "Demonstrates foundational skills in Tableau Desktop for data visualization.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "750/1000",
+        "recommendedExperience": "3+ months of Tableau Desktop experience",
+        "officialPage": "https://www.tableau.com/learn/certification/desktop-specialist"
+      },
+      "label": "TDS-C01"
+    },
+    {
+      "code": "CSA",
+      "vendor": "servicenow",
+      "name": "Certified System Administrator",
+      "description": {
+        "summary": "Validates foundational skills in configuring and managing ServiceNow platform.",
+        "format": "Multiple choice questions",
+        "duration": "90 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "6+ months of ServiceNow experience",
+        "officialPage": "https://www.servicenow.com/services/training-and-certification/certified-system-administrator.html"
+      },
+      "label": "CSA"
+    },
+    {
+      "code": "CAD",
+      "vendor": "servicenow",
+      "name": "Certified Application Developer",
+      "description": {
+        "summary": "Demonstrates ability to build applications on the ServiceNow platform.",
+        "format": "Multiple choice questions",
+        "duration": "90 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "6+ months of ServiceNow development",
+        "officialPage": "https://www.servicenow.com/services/training-and-certification/certified-application-developer.html"
+      },
+      "label": "CAD"
+    },
+    {
+      "code": "CIS-ITSM",
+      "vendor": "servicenow",
+      "name": "Certified Implementation Specialist \u2013 IT Service Management",
+      "description": {
+        "summary": "Validates skills in implementing ITSM solutions using ServiceNow.",
+        "format": "Multiple choice questions",
+        "duration": "90 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "6+ months of ITSM implementation",
+        "officialPage": "https://www.servicenow.com/services/training-and-certification/certified-implementation-specialist-itsm.html"
+      },
+      "label": "CIS-ITSM"
+    },
+    {
+      "code": "CIS-CSM",
+      "vendor": "servicenow",
+      "name": "Certified Implementation Specialist \u2013 Customer Service Management",
+      "description": {
+        "summary": "Demonstrates ability to implement CSM solutions using ServiceNow.",
+        "format": "Multiple choice questions",
+        "duration": "90 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "6+ months of CSM implementation",
+        "officialPage": "https://www.servicenow.com/services/training-and-certification/certified-implementation-specialist-csm.html"
+      },
+      "label": "CIS-CSM"
+    },
+    {
+      "code": "CIS-HR",
+      "vendor": "servicenow",
+      "name": "Certified Implementation Specialist \u2013 HR Service Delivery",
+      "description": {
+        "summary": "Validates skills in implementing HR Service Delivery solutions using ServiceNow.",
+        "format": "Multiple choice questions",
+        "duration": "90 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "6+ months of HRSD implementation",
+        "officialPage": "https://www.servicenow.com/services/training-and-certification/certified-implementation-specialist-hr.html"
+      },
+      "label": "CIS-HR"
+    },
+    {
+      "code": "CIS-DISCOVERY",
+      "vendor": "servicenow",
+      "name": "Certified Implementation Specialist \u2013 Discovery",
+      "description": {
+        "summary": "Demonstrates ability to implement Discovery solutions using ServiceNow.",
+        "format": "Multiple choice questions",
+        "duration": "90 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "6+ months of Discovery implementation",
+        "officialPage": "https://www.servicenow.com/services/training-and-certification/certified-implementation-specialist-discovery.html"
+      },
+      "label": "CIS-DISCOVERY"
+    },
+    {
+      "code": "CIS-DF",
+      "vendor": "servicenow",
+      "name": "Certified Implementation Specialist \u2013 Discovery Fundamentals",
+      "description": {
+        "summary": "Validates foundational skills in ServiceNow Discovery implementation.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "3+ months of Discovery fundamentals",
+        "officialPage": "https://www.servicenow.com/services/training-and-certification/certified-implementation-specialist-discovery-fundamentals.html"
+      },
+      "label": "CIS-DF"
+    },
+    {
+      "code": "CIS-RC",
+      "vendor": "servicenow",
+      "name": "Certified Implementation Specialist \u2013 Risk and Compliance",
+      "description": {
+        "summary": "Demonstrates ability to implement Risk and Compliance solutions using ServiceNow.",
+        "format": "Multiple choice questions",
+        "duration": "90 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "6+ months of Risk and Compliance implementation",
+        "officialPage": "https://www.servicenow.com/services/training-and-certification/certified-implementation-specialist-risk-and-compliance.html"
+      },
+      "label": "CIS-RC"
+    },
+    {
+      "code": "OGEA-103",
+      "vendor": "opengroup",
+      "name": "TOGAF Enterprise Architecture Part 1 Exam",
+      "description": {
+        "summary": "Validates foundational knowledge of TOGAF framework and enterprise architecture concepts.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "600/1000",
+        "recommendedExperience": "No experience required",
+        "officialPage": "https://www.opengroup.org/certifications/togaf"
+      },
+      "label": "OGEA-103"
+    },
+    {
+      "code": "DB-DEP",
+      "vendor": "databricks",
+      "name": "Databricks Certified Data Engineer Professional",
+      "description": {
+        "summary": "Validates advanced skills in data engineering using Databricks platform.",
+        "format": "Multiple choice and hands-on tasks",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of Databricks experience",
+        "officialPage": "https://www.databricks.com/learn/certification/data-engineer-professional"
+      },
+      "label": "DB-DEP"
+    },
+    {
+      "code": "DB-GAIEA",
+      "vendor": "databricks",
+      "name": "Databricks Certified Generative AI Engineer Associate",
+      "description": {
+        "summary": "Demonstrates foundational skills in generative AI engineering using Databricks.",
+        "format": "Multiple choice and hands-on tasks",
+        "duration": "90 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "6+ months of Databricks AI experience",
+        "officialPage": "https://www.databricks.com/learn/certification/generative-ai-engineer-associate"
+      },
+      "label": "DB-GAIEA"
+    },
+    {
+      "code": "DB-MLA",
+      "vendor": "databricks",
+      "name": "Databricks Certified Machine Learning Associate",
+      "description": {
+        "summary": "Validates foundational skills in machine learning using Databricks platform.",
+        "format": "Multiple choice and hands-on tasks",
+        "duration": "90 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "6+ months of Databricks ML experience",
+        "officialPage": "https://www.databricks.com/learn/certification/machine-learning-associate"
+      },
+      "label": "DB-MLA"
+    },
+    {
+      "code": "DB-MLP",
+      "vendor": "databricks",
+      "name": "Databricks Certified Machine Learning Professional",
+      "description": {
+        "summary": "Demonstrates advanced skills in machine learning engineering using Databricks.",
+        "format": "Multiple choice and hands-on tasks",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of Databricks ML experience",
+        "officialPage": "https://www.databricks.com/learn/certification/machine-learning-professional"
+      },
+      "label": "DB-MLP"
+    },
+    {
+      "code": "200-301",
+      "vendor": "cisco",
+      "name": "Cisco Certified Network Associate (CCNA)",
+      "description": {
+        "summary": "Validates foundational skills in networking, security, and automation.",
+        "format": "Multiple choice and simulation questions",
+        "duration": "120 minutes",
+        "passingScore": "Varies (Cisco does not publish)",
+        "recommendedExperience": "No experience required",
+        "officialPage": "https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate/ccna.html"
+      },
+      "label": "200-301"
+    },
+    {
+      "code": "350-401",
+      "vendor": "cisco",
+      "name": "Implementing Cisco Enterprise Network Core Technologies (CCNP)",
+      "description": {
+        "summary": "Validates knowledge of implementing core enterprise network technologies, including dual stack (IPv4 and IPv6) architecture, virtualization, infrastructure, network assurance, security, and automation.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "Pass/Fail",
+        "recommendedExperience": "Cisco CCNA or equivalent networking knowledge",
+        "officialPage": "https://www.cisco.com/site/us/en/learn/training-certifications/exams/encor.html"
+      },
+      "label": "350-401"
+    },
+    {
+      "code": "AB-100",
+      "vendor": "microsoft",
+      "name": "Microsoft Azure AI Fundamentals",
+      "description": {
+        "summary": "Validates foundational knowledge of AI concepts and Azure AI services.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "No technical background required",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/ab-100/"
+      },
+      "label": "AB-100"
+    },
+    {
+      "code": "AB-410",
+      "vendor": "microsoft",
+      "name": "Microsoft Certified: Intelligent Applications Builder Associate",
+      "description": {
+        "summary": "Validates ability to design, build, and implement AI-powered solutions using Microsoft Power Platform, including Copilot, low-code tools, Dataverse, Power Apps, Power Automate, Power Pages, Copilot Studio, and AI Builder.",
+        "format": "Multiple choice and scenario-based questions (single and multiple response)",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Experience with Power Platform, Dataverse, Power Apps, Power Automate, Copilot Studio, and AI Builder",
+        "officialPage": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-410"
+      },
+      "label": "AB-410"
+    },
+    {
+      "code": "AB-620",
+      "vendor": "microsoft",
+      "name": "Microsoft Certified: AI Agent Builder Associate",
+      "description": {
+        "summary": "Validates ability to design, build, extend, and integrate enterprise-grade AI agent solutions using Microsoft Copilot Studio, Power Platform, and Azure AI services.",
+        "format": "Multiple choice and scenario-based questions (single and multiple response)",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Experience building agents in Copilot Studio; intermediate generative AI knowledge; familiarity with REST APIs, Power Platform, Dataverse, and Microsoft Foundry",
+        "officialPage": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-620"
+      },
+      "label": "AB-620"
+    },
+    {
+      "code": "AB-730",
+      "vendor": "microsoft",
+      "name": "Microsoft Azure AI Engineer Associate",
+      "description": {
+        "summary": "Demonstrates ability to develop AI solutions using Azure AI services.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of AI development experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/ab-730/"
+      },
+      "label": "AB-730"
+    },
+    {
+      "code": "AB-731",
+      "vendor": "microsoft",
+      "name": "Microsoft Azure AI Engineer Expert",
+      "description": {
+        "summary": "Validates advanced skills in designing and implementing AI solutions on Azure.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "180 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "2+ years of AI engineering experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/ab-731/"
+      },
+      "label": "AB-731"
+    },
+    {
+      "code": "AB-900",
+      "vendor": "microsoft",
+      "name": "Microsoft Azure AI Fundamentals",
+      "description": {
+        "summary": "Demonstrates foundational knowledge of AI concepts and Azure AI services.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "No technical background required",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/ab-900/"
+      },
+      "label": "AB-900"
+    },
+    {
+      "code": "AI-300",
+      "vendor": "microsoft",
+      "name": "Designing and Implementing a Microsoft Azure AI Solution",
+      "description": {
+        "summary": "Validates ability to design, implement, and manage AI solutions using Azure AI services, including generative AI, NLP, vision, and search.",
+        "format": "Multiple choice, multiple response, case study, and drag-and-drop questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of experience developing AI solutions using Azure AI services",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/ai-300/"
+      },
+      "label": "AI-300"
+    },
+    {
+      "code": "AZ-801",
+      "vendor": "microsoft",
+      "name": "Configuring Windows Server Hybrid Advanced Services",
+      "description": {
+        "summary": "Validates skills in configuring Windows Server in hybrid environments.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "180 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "2+ years of Windows Server administration",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/az-801/"
+      },
+      "label": "AZ-801"
+    },
+    {
+      "code": "GH-900",
+      "vendor": "microsoft",
+      "name": "GitHub Foundations",
+      "description": {
+        "summary": "Validates foundational knowledge of GitHub and DevOps practices.",
+        "format": "Multiple choice questions",
+        "duration": "60 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "No experience required",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/gh-900/"
+      },
+      "label": "GH-900"
+    },
+    {
+      "code": "MB-230",
+      "vendor": "microsoft",
+      "name": "Microsoft Dynamics 365 Customer Service Functional Consultant",
+      "description": {
+        "summary": "Measures ability to manage cases and Knowledge Management; manage entitlements and SLAs; implement scheduling; implement multi-session experiences for Customer Service; manage analytics, visualizations, and insights; implement Microsoft Power Platform; implement Connected Customer Service; and implement routing.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Customer service expertise and strong applied knowledge of customer service",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/mb-230/"
+      },
+      "label": "MB-230"
+    },
+    {
+      "code": "MB-280",
+      "vendor": "microsoft",
+      "name": "Microsoft Dynamics 365 Customer Service Functional Consultant Expert",
+      "description": {
+        "summary": "Demonstrates advanced skills in customer service implementation.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "2+ years of customer service experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/mb-280/"
+      },
+      "label": "MB-280"
+    },
+    {
+      "code": "MB-310",
+      "vendor": "microsoft",
+      "name": "Microsoft Dynamics 365 Finance Functional Consultant Associate",
+      "description": {
+        "summary": "Analyze and translate financial business requirements into processes and solutions that implement industry recommended practices.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "100 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Fundamental understanding of accounting principles and financial operations",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/mb-310/"
+      },
+      "label": "MB-310"
+    },
+    {
+      "code": "MB-330",
+      "vendor": "microsoft",
+      "name": "Microsoft Certified: Dynamics 365 Supply Chain Management Functional Consultant Associate",
+      "description": {
+        "summary": "Design and configure Dynamics 365 Supply chain Management and related tools.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "100 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Understanding of supply chain management operations and implementing Dynamics 365 Supply Chain Management features",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/mb-330/"
+      },
+      "label": "MB-330"
+    },
+    {
+      "code": "MB-800",
+      "vendor": "microsoft",
+      "name": "Microsoft Certified: Dynamics 365 Business Central Functional Consultant Associate",
+      "description": {
+        "summary": "As a functional consultant, you implement core application setup processes for small and medium businesses. You configure the application in collaboration with the implementation team to provide the business with manageability and ease of use.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "100 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Applied knowledge of meeting business needs by specializing in one or more feature sets of Business Central",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/mb-800/"
+      },
+      "label": "MB-800"
+    },
+    {
+      "code": "MB-820",
+      "vendor": "microsoft",
+      "name": "Microsoft Dynamics 365 Business Central Developer",
+      "description": {
+        "summary": "Demonstrates ability to build applications on Business Central.",
+        "format": "Multiple choice questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of Business Central development",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/mb-820/"
+      },
+      "label": "MB-820"
+    },
+    {
+      "code": "MD-102",
+      "vendor": "microsoft",
+      "name": "Microsoft 365 Certified: Endpoint Administrator Associate",
+      "description": {
+        "summary": "Plan and execute an endpoint deployment strategy, using essential elements of modern management, co-management approaches, and Microsoft Intune integration.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "100 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Experience with Microsoft Entra ID and Microsoft 365 technologies, including Intune, as well as strong skills and experience in deploying, configuring, and maintaining Windows client and non-Windows devices",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/md-102/"
+      },
+      "label": "MD-102"
+    },
+    {
+      "code": "MS-102",
+      "vendor": "microsoft",
+      "name": "Microsoft 365 Administrator",
+      "description": {
+        "summary": "Validates skills in administering Microsoft 365 tenant-level services.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "180 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "2+ years of Microsoft 365 administration",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/ms-102/"
+      },
+      "label": "MS-102"
+    },
+    {
+      "code": "SC-200",
+      "vendor": "microsoft",
+      "name": "Microsoft Security Operations Analyst",
+      "description": {
+        "summary": "Demonstrates ability to investigate and mitigate threats using Microsoft security tools.",
+        "format": "Multiple choice and multiple response questions",
+        "duration": "120 minutes",
+        "passingScore": "700/1000",
+        "recommendedExperience": "1+ years of security operations experience",
+        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/sc-200/"
+      },
+      "label": "SC-200"
+    },
+    {
+      "code": "CIS-SM",
+      "vendor": "servicenow",
+      "name": "ServiceNow Certified Implementation Specialist \u2013 Service Mapping",
+      "label": "CIS-SM",
+      "description": {
+        "format": "Multiple choice (single and multiple response)",
+        "officialPage": "https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=d88e1d77dbc27f40de3cdb85ca961926",
+        "passingScore": "Not published (pass/fail reported immediately)",
+        "recommendedExperience": "6 months field experience and participation in 2+ ITOM deployments (Service Mapping)",
+        "summary": "Validates ability to configure, implement, and maintain the ServiceNow Service Mapping application."
+      }
+    },
+    {
+      "code": "AI-103",
+      "vendor": "microsoft",
+      "name": "Microsoft Certified: Azure AI Apps and Agents Developer Associate",
+      "label": "AI-103",
+      "description": {
+        "duration": "100 minutes",
+        "format": "Multiple choice and scenario-based questions (single and multiple response)",
+        "officialPage": "https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103",
+        "passingScore": "700/1000",
+        "recommendedExperience": "Experience developing AI apps with Python and familiarity with Microsoft Foundry and Azure AI services",
+        "summary": "Validates ability to plan, build, deploy, and operate generative AI apps and agentic solutions using Azure Foundry and related AI services."
+      }
+    },
+    {
+      "code": "CFA-L1",
+      "vendor": "cfa-institute",
+      "name": "CFA Level I",
+      "label": "CFA-L1",
+      "description": {
+        "summary": "Tests knowledge of key terms, concepts, and formulas that are the foundation of the investment industry.",
+        "format": "180 multiple-choice questions in two sessions",
+        "duration": "270 minutes (two 135-minute sessions)",
+        "passingScore": "1600/1900 (scaled score, pass/fail)",
+        "recommendedExperience": "300+ hours of preparation recommended",
+        "officialPage": "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-i-exam"
+      }
+    },
+    {
+      "code": "CFA-L2",
+      "vendor": "cfa-institute",
+      "name": "CFA Level II",
+      "label": "CFA-L2",
+      "description": {
+        "summary": "Tests ability to apply investment concepts and analytical methods in real-world situations through vignette-based item sets.",
+        "format": "88 multiple-choice questions in vignette-based item sets across two sessions",
+        "duration": "270 minutes (two 135-minute sessions)",
+        "passingScore": "1600/1900 (scaled score, pass/fail)",
+        "recommendedExperience": "300+ hours of preparation recommended; CFA Level I passed",
+        "officialPage": "https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam"
+      }
+    },
+    {
+      "code": "CCA-F",
+      "vendor": "anthropic",
+      "name": "Claude Certified Architect \u2013 Foundations",
+      "label": "CCA-F",
+      "description": {
+        "summary": "Validates ability to design, implement, and operate production-grade AI systems using Claude, Claude Code, the Claude Agent SDK, and Model Context Protocol (MCP).",
+        "format": "60 scenario-based multiple-choice questions",
+        "duration": "120 minutes",
+        "passingScore": "720/1000",
+        "recommendedExperience": "6+ months of hands-on experience with Claude API, Claude Code, Agent SDK, or MCP",
+        "officialPage": "https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request"
+      }
+    }
+  ]
+}
