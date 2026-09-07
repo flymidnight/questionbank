@@ -437,20 +437,6 @@
       "label": "AZ-700"
     },
     {
-      "code": "AZ-800",
-      "vendor": "microsoft",
-      "name": "Administering Windows Server Hybrid Core Infrastructure",
-      "description": {
-        "summary": "Validates skills in administering Windows Server hybrid environments.",
-        "format": "Multiple choice questions",
-        "duration": "120 minutes",
-        "passingScore": "700/1000",
-        "recommendedExperience": "1+ years of Windows Server administration",
-        "officialPage": "https://learn.microsoft.com/en-us/certifications/exams/az-800/"
-      },
-      "label": "AZ-800"
-    },
-    {
       "code": "DP-100",
       "vendor": "microsoft",
       "name": "Designing and Implementing a Data Science Solution on Azure",
